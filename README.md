@@ -2,4 +2,4 @@
 а пока что проект размещен [тут]
 
 
-[тут]: ast8rix.github.io
+[тут]: https://ast8rix.github.io/russian-travel/
