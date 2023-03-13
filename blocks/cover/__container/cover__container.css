@@ -1,0 +1,9 @@
+.cover__container {
+    margin-top: 92px;
+    width: 1184px;
+    height: 748px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
