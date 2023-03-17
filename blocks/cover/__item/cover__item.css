@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
 
-    background-image: url(/sprint-3-images/cover-trains.jpg);
+    background: url("/sprint-3-images/cover-trains.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
