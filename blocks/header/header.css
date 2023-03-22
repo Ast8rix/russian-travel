@@ -1,24 +1,27 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 48px;
+  max-width: 1184px; /* максимальная ширина страницы */
+  margin: 0 auto; /* выравниваем по центру */
+  padding: 28px 48px 56px 48px; /* внутренние отступы */
+  background-color: #2a2c2f; /* цвет фона */
+  display: flex; /* выравниваем элементы по центру */
+  justify-content: space-between; /* выравниваем элементы по горизонтали - крайние элементы прижимаются к краям родителя, оставшиеся выстраиваются внутри контейнера равномерно, так, чтобы между ними были одинаковые отступы.*/
+  align-items: center; /* выравниваем элементы по вертикали - элементы выстраиваются по центру поперечной оси*/
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .header {
-    margin: 0 24px;
+    padding-bottom: 48px; /* внутренние отступы */
   }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .header {
-    margin: 0 16px;
+    padding: 28px 24px 48px 24px; /* внутренние отступы */
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .header {
-    margin: 0 16px;
+    padding: 16px 16px 48px 16px; /* внутренние отступы */
   }
 }

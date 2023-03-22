@@ -1,0 +1,25 @@
+.header__lang-link {
+  display: block; /* блочный тип отображения */
+  font-family: 'Inter', Arial, sans-serif; /* шрифт по умолчанию */
+  font-style: normal; /* стиль шрифта по умолчанию */
+  font-weight: normal; /* жирность шрифта по умолчанию */
+  font-size: 24px; /* размер шрифта по умолчанию */
+  line-height: 28px; /* высота строки по умолчанию */
+  color: #FFFFFF; /* цвет текста по умолчанию */
+  text-decoration: none; /* убираем подчёркивание текста по умолчанию */
+  transition: opacity .3s ease; /* плавное появление текста по умолчанию */
+}
+
+.header__lang-link:hover {
+  opacity: .8; /* плавное появление текста при наведении */
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px; /* размер шрифта по умолчанию */
+    line-height: 1.33; /* высота строки по умолчанию - задаёт интервал между строчками текста, который называют интерлиньяж*/
+  }
+}
+
+
+

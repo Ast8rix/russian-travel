@@ -1,0 +1,6 @@
+.header__lang-list {
+  padding: 0; /* внутренние отступы */
+  margin: 0; /* внешние отступы */
+  list-style: none; /* убираем маркеры списка */
+  display: flex; /* флекс контейнер */
+}
