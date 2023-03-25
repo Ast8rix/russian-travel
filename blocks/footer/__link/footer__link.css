@@ -1,0 +1,9 @@
+.footer__link {
+  color: #FFFFFF; /* цвет текста */
+  text-decoration: none; /* убираем подчеркивание */
+  transition: opacity .3s ease; /* пауза при наведении */
+}
+
+.footer__link:hover {
+  opacity: .8; /* прозрачность при наведении */
+}

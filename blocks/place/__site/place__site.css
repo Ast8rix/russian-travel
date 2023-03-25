@@ -1,0 +1,9 @@
+.place__site {
+  align-self: end; /* выравнивание снизу */
+}
+
+@media screen and (max-width: 767px) {
+  .place__site {
+    display: none; /*полностью скрывает элемент со страницы, не удаляя его при этом из HTML-разметки*/
+  }
+}

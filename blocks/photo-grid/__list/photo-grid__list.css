@@ -1,0 +1,33 @@
+.photo-grid__list {
+  margin: 0; /* сбрасываем отступы*/
+  padding: 0; /* сбрасываем отступы*/
+  list-style: none; /* убираем маркеры списка*/
+  display: grid; /* грид сетка */
+  grid-gap: 16px; /* расстояние между элементами */
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr)); /* повтор (Значение auto-fit тоже заполняет всё доступное пространство колонками,
+   но в отличие от auto-fill схлопывает пустые и отдаёт больше места под заполненные), все столбцы не могут быть меньше 284 пикс и больше 1 фракции */
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .photo-grid__list  {
+    grid-gap: 14px; /* расстояние между элементами */
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .photo-grid__list  {
+    grid-gap: 16px; /* расстояние между элементами */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid__list  {
+    grid-gap: 12px; /* расстояние между элементами */
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid__list  {
+    grid-template-columns: minmax(100px, 1fr); /* колонка не может быть меньше 100 пикс и быть больше 1 фракции*/
+  }
+}

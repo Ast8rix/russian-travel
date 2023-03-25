@@ -1,0 +1,23 @@
+.footer {
+  max-width: 1184px; /* максимальная ширина страницы */
+  margin: 0 auto; /* отступ слева и справа */
+  padding: 92px 48px 24px 48px; /* внутренний отступ для выравнивания элементов */
+  background-color: #2A2C2F; /* цвет фона */
+  display: flex; /* флексбокс */
+  justify-content: space-between; /* выравнивание по краям двух элементов */
+  align-items: center; /* выравнивание по вертикали и по центру*/
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer {
+    padding: 88px 24px 24px 24px; /* внутренний отступ для выравнивания элементов */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    flex-direction: column; /* отображения списка колонкой */
+    align-items: flex-start; /* выравнивание по вертикали и сверху списка*/
+    padding: 64px 0 24px 16px; /* внутренний отступ для выравнивания элементов */
+  }
+}

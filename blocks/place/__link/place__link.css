@@ -1,0 +1,13 @@
+.place__link {
+  font-style: normal; /* подгоняем стиль для первого элемента */
+  font-weight: normal; /* толщина шрифта */
+  font-size: 18px; /* размер шрифта */
+  line-height: 1.22;  /* высота строки */
+  text-decoration-line: underline; /* подчеркиваем */
+  color: #FFFFFF; /* цвет текста */
+  transition: opacity .3s ease; /* плавное переходимость анимации */
+}
+
+.place__link:hover {
+  opacity: .8;
+}

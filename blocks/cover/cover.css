@@ -1,0 +1,27 @@
+.cover {
+  position: relative; /* Позиционирование */
+  width: 1184px; /* Ширина */
+  height: 740px; /* Высота */
+  margin: 0 auto; /* Выравнивание 0 верх низ и авто по бокам */
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover {
+    width: 1024px; /* Ширина */
+    max-height: 640px; /* Высота */
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 1023px) {
+  .cover {
+    width: 100%; /* Ширина */
+    max-height: 480px; /* Высота */
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .cover {
+    width: 100%; /* Ширина */
+    max-height: 200px; /* Высота */
+  }
+}

@@ -1,0 +1,20 @@
+.footer__list {
+  list-style: none; /* убираем маркеры списка */
+  margin: 0; /* сброс отступов */
+  padding: 0; /* сброс отступов */
+  display: flex; /* флексбокс */
+  font-family: 'Inter', Arial, sans-serif; /* шрифт */
+  font-style: normal; /* формат шрифта */
+  font-weight: normal; /* жирность шрифта */
+  font-size: 16px; /* размер шрифта */
+  line-height: 1.12; /* высота строки */
+  color: #FFFFFF; /* цвет текста */
+}
+
+@media screen and (max-width: 767px) {
+  .footer__list {
+    flex-direction: column; /* отображения списка колонкой */
+    font-size: 24px; /* размер шрифта */
+    line-height: 1;   /* высота строки */
+  }
+}

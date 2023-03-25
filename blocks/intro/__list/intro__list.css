@@ -1,0 +1,12 @@
+.intro__list {
+  padding: 0; /* сбрасываем отступы*/
+  margin: 0; /* сбрасываем отступы*/
+  list-style: none; /* убираем маркеры списка*/
+  max-width: 690px;   /* максимальная ширина */
+  font-family: 'Inter', Arial, sans-serif; /* шрифт */
+  font-style: normal; /* стиль шрифта */
+  font-weight: bold; /* жирность шрифта */
+  font-size: 12px; /* размер шрифта */
+  line-height: 1.5;   /* высота строки */
+  color: #FFFFFF; /* цвет текста */
+}

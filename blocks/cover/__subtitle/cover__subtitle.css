@@ -1,0 +1,20 @@
+.cover__subtitle {
+  max-width: 360px; /* Максимальная Ширина */
+  margin: 0 auto; /* Выравнивание по центру контента */
+  font-family: 'Inter', Arial, sans-serif; /* Шрифт */
+  font-style: normal; /* Обычный */
+  font-weight: normal; /* Толщина шрифта */
+  font-size: 18px; /* Размер шрифта */
+  line-height: 1.22; /* Высота строки */
+  color: #FFFFFF; /* Цвет текста */
+  text-align: center; /* Выравнивание текста */
+  z-index: 2; /* текст поверх картинки */
+}
+
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    max-width: 288px; /* Максимальная Ширина */
+    font-size: 14px; /* Размер шрифта */
+    line-height: 1.14; /* Высота строки */
+  }
+}

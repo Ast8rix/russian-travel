@@ -1,0 +1,25 @@
+.photo-grid {
+  max-width: 1184px; /* максимальная ширина */
+  margin: 0 auto; /* отступ слева и справа авто */
+  padding-bottom: 52px; /* отступ внтуренний вниз */
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) /*интервал смены адпативности сайта*/    {
+  .photo-grid {
+    max-width: 928px; /* максимальная ширина */
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .photo-grid {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    max-width: 720px;
+    padding: 0 16px 40px 16px;
+  }
+}
+

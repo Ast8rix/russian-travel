@@ -1,0 +1,35 @@
+.cover__link {
+  text-decoration: none; /* Убираем подчёркивание */
+  background-image: url(../../../images/cover-trains.jpg); /* Путь к изображению */
+  background-size: cover; /* Размер изображения */
+  background-repeat: no-repeat; /* Не повторять */
+  display: flex; /* флексбокс */
+  flex-direction: column; /* колонки */
+  justify-content: center; /* выравнивание по центру контента */
+  align-items: center; /* выравнивание по центру элементов */
+  width: 100%; /* Ширина */
+  height: 100% /* Высота */
+}
+
+
+.cover__link:before {
+  content: ''; /* пусто контент чтобы настроить анимацию */
+  position: absolute; /* Позиционирование абсолютное затемненность анимации создает */
+  top: 0; /* верхняя граница */
+  left: 0; /* левая граница */
+  right: 0;   /* правая граница */
+  bottom: 0; /* нижняя граница */
+  background: #2A2C2F; /* цвет фона */
+  opacity: .3; /* прозрачность */
+  transition: opacity .3s ease; /* анимация появления */
+}
+
+
+.cover__link:hover::before {
+  background: #2A2C2F; /* цвет фона */
+  opacity: .8; /* прозрачность */
+}
+
+.cover__link:hover {
+  opacity: 1; /* прозрачность */
+}

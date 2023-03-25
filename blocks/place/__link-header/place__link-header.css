@@ -1,0 +1,10 @@
+.place__link-header {
+  margin: 0; /*- сброс отступа */
+  margin-bottom: 12px; /* отступ снизу*/
+  font-style: normal; /* подгоняем стиль для первого элемента */
+  font-weight: normal; /* толщина шрифта */
+  font-size: 12px; /* размер шрифта */
+  line-height: 1; /* высота строки */
+  letter-spacing: 0.2em; /* расстояние между буквами*/
+  color: #AAAAAA; /* цвет текста */
+}

@@ -1,0 +1,20 @@
+.place__paragraph {
+  margin: 0; /*- сброс отступа */
+  margin-bottom: 26px; /* отступ снизу*/
+  font-style: normal; /* подгоняем стиль для первого элемента */
+  font-weight: normal; /* толщина шрифта */
+  font-size: 18px; /* размер шрифта */
+  line-height: 1.67; /* высота строки */
+  color: #FFFFFF; /* цвет текста */
+}
+
+.place__paragraph:last-of-type {
+  margin-bottom: 0; /* отступ снизу для последнего(второго) параграфа*/
+}
+
+@media screen and (max-width: 1023px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 1.62;
+  }
+}

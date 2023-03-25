@@ -1,0 +1,20 @@
+.cover__title {
+  max-width: 560px; /* Максимальная Ширина */
+  margin: 0 auto 32px auto; /* Выравнивание по центру контента */
+  font-family: 'Inter', Arial, sans-serif; /* Шрифт */
+  font-style: normal; /* Обычный */
+  font-weight: 900; /* Толщина шрифта */
+  font-size: 72px; /* Размер шрифта */
+  line-height: 1.06; /* Высота строки */
+  color: #FFFFFF; /* Цвет текста */
+  text-align: center; /* Выравнивание текста */
+  z-index: 2; /* текст поверх картинки */
+}
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    max-width: 288px; /* Максимальная Ширина */
+    font-size: 32px; /* Размер шрифта */
+    line-height: 1.09; /* Высота строки */
+  }
+}
