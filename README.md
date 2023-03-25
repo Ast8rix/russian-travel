@@ -1,12 +1,12 @@
 # Проектная работа: "Путешествие по России". Создана в рамках учебы в [Яндекс.Практикум](https://praktikum.yandex.ru/) на факультете ["Веб-разработчик"](https://praktikum.yandex.ru/web/)
 
-*Read this in other languages:* [EN]()
+*Read this in other languages:* [EN](https://github.com/Ast8rix/russian-travel/blob/master/README.EN.md)
 
 ## Описание:
 
 "Путешествие по России" - это типовой однастраничный сайт про российский внутренний туризм. В проектной работе была применена работа с макетом в Figma, построение сложных сеток, разширенные возможности HTML и CSS. Отличием от предыдущей проектной работы ["How to Learn" (ссылка на репозиторий)](https://github.com/Ast8rix/first-project.git) является реализация адаптивной вёрстки посредством Flexbox, Grid Layout и Media queries.
 
-[Проектная работа на GitHub Pages](https://github.com/Ast8rix/russian-travel.git)
+[Проектная работа на GitHub Pages](https://ast8rix.github.io/russian-travel/)
 
 ## Функционал:
 

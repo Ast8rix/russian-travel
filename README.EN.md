@@ -6,9 +6,9 @@
 
 "Travel in Russia" is a typical one-page site about Russian domestic tourism. In the design work, work with the layout in Figma, the construction of complex grids, and advanced HTML and CSS capabilities were applied. The difference from the previous project work ["How to learn" (link to the repository)](https://github.com/Ast8rix/first-project.git) is the implementation of adaptive layout using Flexbox, Grid Layout and Media requests.
 
-*Read this in other languages:* [RU]()
+*Read this in other languages:* [RU](https://github.com/Ast8rix/russian-travel/blob/master/README.md)
 
-[Deploy on GitHub Pages](https://github.com/Ast8rix/russian-travel.git)
+[Deploy on GitHub Pages](https://ast8rix.github.io/russian-travel/)
 
 ## Functionality:
 
